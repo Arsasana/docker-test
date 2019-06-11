@@ -13,5 +13,5 @@ steps:
 - task: Docker@2
   displayName: 'Docker buildAndPush'
   inputs:
-    containerRegistry: ajAcr2-spn
+    containerRegistry: ajAcr2-admin
     repository: test
