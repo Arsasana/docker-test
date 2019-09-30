@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: ajinkyadockertest 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: ajinkyadockertest 
+    spec:
+      containers:
+        - name: ajinkyadockertest 
+          image: ajacr1.azurecr.io/ajinkyadockertest
+          ports:
+          - containerPort: 80
