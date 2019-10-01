@@ -76,7 +76,7 @@ stages:
           #       $(containerRegistry)/$(imageRepository):$(tag)
 
           - task: Kubernetes@1
-            displayName: 'kubectl apply'
+            displayName: 'kubectl apply - create pods'
             inputs:
               kubernetesServiceEndpoint: 'ajAksCluster-n3'
               namespace: n3
