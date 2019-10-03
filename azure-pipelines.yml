@@ -51,7 +51,7 @@ stages:
     displayName: Deploy
     pool:
       name: default
-    environment: 'ajinkya599dockertest1.n3'
+    environment: 'ajinkya599dockertest2.n3'
     strategy:
       runOnce:
         deploy:
