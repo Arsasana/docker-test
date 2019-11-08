@@ -11,7 +11,7 @@ resources:
 variables:
 
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '64c46131-0bdd-406d-a676-27ae449b5bf1'
+  dockerRegistryServiceConnection: dockerRegistryConnection
   imageRepository: 'ajinkyadockertest'
   containerRegistry: 'ajacr1.azurecr.io'
   dockerfilePath: '**/Dockerfile'
